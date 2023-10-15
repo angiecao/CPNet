@@ -18,7 +18,7 @@ This repository contains the implementation details of our paper "Accurate Conto
 - mmcv 2.0
 - mmsegmentation 
 
-Noted: The code is based on [mmsegmentation v1.1.2]([open-mmlab/mmsegmentation at v1.1.2 (github.com)](https://github.com/open-mmlab/mmsegmentation/tree/v1.1.2)). Just follow this guidance [get_started]([mmsegmentation/docs/en/get_started.md at v1.1.2 · open-mmlab/mmsegmentation (github.com)](https://github.com/open-mmlab/mmsegmentation/blob/v1.1.2/docs/en/get_started.md#installation)) to install the environment and copy or update the code files of this repository to the corresponding files, and everything will be ready.
+Noted: The code is based on [mmsegmentation v1.1.2](https://github.com/open-mmlab/mmsegmentation/tree/v1.1.2). Just follow this guidance [get_started](https://github.com/open-mmlab/mmsegmentation/blob/v1.1.2/docs/en/get_started.md#installation) to install the environment and copy or update the code files of this repository to the corresponding files, and everything will be ready.
 
 ## Dataset
 
