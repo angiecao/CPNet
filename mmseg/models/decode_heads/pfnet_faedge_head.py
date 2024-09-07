@@ -230,8 +230,8 @@ class SobelEdge_Simple(nn.Module):
         device = x.device
         edge_0 = F.conv2d(x, self.sobel_kernel0.to(device), stride=1, padding=1)
         edge_90 = F.conv2d(x, self.sobel_kernel90.to(device), stride=1, padding=1)
-        edge_45 = F.conv2d(x, self.sobel_kernel0.to(device), stride=1, padding=1)
-        edge_135 = F.conv2d(x, self.sobel_kernel0.to(device), stride=1, padding=1)
+        edge_45 = F.conv2d(x, self.sobel_kernel45.to(device), stride=1, padding=1)
+        edge_135 = F.conv2d(x, self.sobel_kernel135.to(device), stride=1, padding=1)
         out_cat = torch.cat((torch.abs(edge_0), torch.abs(edge_90), torch.abs(edge_45), torch.abs(edge_135)), 1)
         out = self.edge_final(out_cat)
         return out
